@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="javascript.js"></script>
+</head>
+<body> 
+
+    <div class="base">     
+        <form action="/">
+            <input id ="screen" type="text">
+            <input id ="operator" type="hidden">
+
+            <br>
+            <input id = "btn1"  onclick="showInput(this)" class="input" type="button" value="(">
+            <input id = "btn2"  onclick="showInput(this)" class="input" type="button" value=")">
+            <input id = "btn3"  onclick="showInput(this)" class="input" type="button" value="C">
+            <input id = "btn4"  onclick="calculation(this)" class="input" type="button" value="&#247;">
+            
+            <br>
+            <input id = "btn5" onclick="showInput(this)" class="input" type="button" value="7">
+            <input id = "btn6" onclick="showInput(this)" class="input" type="button" value="8">
+            <input id = "btn7" onclick="showInput(this)" class="input" type="button" value="9">
+            <input id = "btn8" onclick="calculation(this)" class="input" type="button" value="&#215;">
+
+            <br>
+            <input id = "btn9"  onclick="showInput(this)" class="input" type="button" value="4">
+            <input id = "btn10" onclick="showInput(this)" class="input" type="button" value="5">
+            <input id = "btn11" onclick="showInput(this)" class="input" type="button" value="6">
+            <input id = "btn12" onclick="calculation(this)" class="input" type="button" value="-">
+
+            <br>
+            <input id = "btn13" onclick="showInput(this)" class="input" type="button" value="1">
+            <input id = "btn14" onclick="showInput(this)" class="input" type="button" value="2">
+            <input id = "btn15" onclick="showInput(this)" class="input" type="button" value="3">
+            <input id = "btn16" onclick="calculation(this)" class="input" type="button" value="+">
+
+            <br>
+            <input id = "btn17" onclick="showInput(this)" class="input" type="button" value="+/-">
+            <input id = "btn18" onclick="showInput(this)" class="input" type="button" value="0">
+            <input id = "btn19" onclick="showInput(this)" class="input" type="button" value=".">
+            <input id = "btn20" onclick="equalsTo()" class="input" type="button" value="=">
+        </form>
+    </div>
+    
+</body>
+</html>
